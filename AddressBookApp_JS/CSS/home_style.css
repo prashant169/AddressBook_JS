@@ -1,0 +1,50 @@
+html body {
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(228, 206, 206, 0.5),
+      rgba(214, 202, 202, 0.5)
+    ),
+    url("../assets/prashant.png");
+  height: 730px;
+  background-size: cover;
+  background-position: center;
+}
+
+.address-text {
+  margin-left: 10px;
+  text-align: left;
+  font: normal normal bold 22px/25px Montserrat;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  color: #008cff;
+  text-transform: uppercase;
+}
+ul {
+  float: left;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+.book-text {
+  color: #42515f;
+}
+
+* {
+  box-sizing: border-box;
+}
